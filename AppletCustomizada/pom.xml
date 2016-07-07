@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.gov.frameworkdemoiselle.certificate.sample</groupId>
+	<artifactId>AppletCustomizada</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<!-- Referece sites: -->
+	<!-- http://demoiselle.sourceforge.net/docs/components/certificate/quickstart/2.0.0/html_single/#d0e50 -->
+	<!-- http://demoiselle.sourceforge.net/docs/components/certificate/reference/1.0.2/html/applet-master.html -->
+
+
+	<dependencies>
+		<dependency>
+			<groupId>br.gov.frameworkdemoiselle.component</groupId>
+			<artifactId>demoiselle-certificate-applet</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
+	</dependencies>
+	
+	<repositories>
+	
+		<repository>
+        <id>demoiselle</id>
+        <name>Demoiselle SourceForge Repository</name>
+        <url>http://demoiselle.sourceforge.net/repository/release</url>
+   		</repository>
+	</repositories>
+
+
+
+</project>
