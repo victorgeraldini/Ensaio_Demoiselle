@@ -18,15 +18,30 @@
 			<version>2.0.0</version>
 		</dependency>
 
+
+		<!-- assina um conteúdo carregado no applet, utilizando um certificado 
+			digital também carregado pela applet. -->
+		<dependency>
+			<groupId>br.gov.frameworkdemoiselle.component</groupId>
+			<artifactId>demoiselle-certificate-signer</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>br.gov.frameworkdemoiselle.component</groupId>
+			<artifactId>demoiselle-certificate-policy-engine</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
 	</dependencies>
-	
+
 	<repositories>
-	
+
 		<repository>
-        <id>demoiselle</id>
-        <name>Demoiselle SourceForge Repository</name>
-        <url>http://demoiselle.sourceforge.net/repository/release</url>
-   		</repository>
+			<id>demoiselle</id>
+			<name>Demoiselle SourceForge Repository</name>
+			<url>http://demoiselle.sourceforge.net/repository/release</url>
+		</repository>
 	</repositories>
 
 
