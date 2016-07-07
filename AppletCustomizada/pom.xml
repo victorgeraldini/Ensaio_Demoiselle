@@ -6,10 +6,10 @@
 	<artifactId>AppletCustomizada</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<!-- Referece sites: -->
+	<!-- Reference sites: -->
 	<!-- http://demoiselle.sourceforge.net/docs/components/certificate/quickstart/2.0.0/html_single/#d0e50 -->
 	<!-- http://demoiselle.sourceforge.net/docs/components/certificate/reference/1.0.2/html/applet-master.html -->
-
+	<!-- http://demoiselle.sourceforge.net/docs/components/certificate/reference/2.0.0/html/applet-configuracao.html -->
 
 	<dependencies>
 		<dependency>
