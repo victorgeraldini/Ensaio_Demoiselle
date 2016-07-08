@@ -13,12 +13,8 @@ public class Teste extends JApplet
 {
 	public void init()
 	{
-//		JKeyStorePanel keyStorePanel = new JKeyStorePanel();
-//		this.getContentPane().add(keyStorePanel);
-		JButton confirm = new JButton("confirmar");
-		this.getContentPane().add(confirm);
-		
-		//if(confirm.)
+		JKeyStorePanel keyStorePanel = new JKeyStorePanel();
+		this.getContentPane().add(keyStorePanel);	
 		
 //		JKeyStoreDialog dialog = new JKeyStoreDialog();
 //		dialog.setModal(true);
